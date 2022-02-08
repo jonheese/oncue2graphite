@@ -1,0 +1,2384 @@
+[
+  {
+    "id": "1",
+    "name": "Vendor",
+    "displayname": "Vendor",
+    "value": "Kohler Company"
+  },
+  {
+    "id": "2",
+    "name": "Product",
+    "displayname": "Controller Type",
+    "value": "RDC 2"
+  },
+  {
+    "id": "3",
+    "name": "FirmwareVersion",
+    "displayname": "Current Firmware",
+    "value": "6.11.2"
+  },
+  {
+    "id": "4",
+    "name": "EngineSpeed",
+    "displayname": "Engine Speed",
+    "value": "0"
+  },
+  {
+    "id": "5",
+    "name": "EngineTargetSpeed",
+    "displayname": "Engine Target Speed",
+    "value": "0"
+  },
+  {
+    "id": "6",
+    "name": "EngineOilPressure",
+    "displayname": "Engine Oil Pressure",
+    "value": 0
+  },
+  {
+    "id": "7",
+    "name": "EngineCoolantTemperature",
+    "displayname": "Engine Coolant Temperature",
+    "value": 32
+  },
+  {
+    "id": "11",
+    "name": "BatteryVoltage",
+    "displayname": "Battery Voltage",
+    "value": "13.5"
+  },
+  {
+    "id": "18",
+    "name": "LubeOilTemperature",
+    "displayname": "Lube Oil Temperature",
+    "value": 66.2
+  },
+  {
+    "id": "20",
+    "name": "GensetControllerTemperature",
+    "displayname": "Generator Controller Temperature",
+    "value": 95
+  },
+  {
+    "id": "26",
+    "name": "EngineLowOilPressureSwitch",
+    "displayname": "Engine Low Oil Pressure Switch",
+    "value": "Off"
+  },
+  {
+    "id": "32",
+    "name": "EngineCompartmentTemperature",
+    "displayname": "Engine Compartment Temperature",
+    "value": 32
+  },
+  {
+    "id": "33",
+    "name": "EngineSpeedAdjustment",
+    "displayname": "Engine Speed Adjustment",
+    "value": "50"
+  },
+  {
+    "id": "34",
+    "name": "EngineSpeedGainAdjustment",
+    "displayname": "Engine Speed Gain Adjustment",
+    "value": "40"
+  },
+  {
+    "id": "35",
+    "name": "GeneratorRotationActual",
+    "displayname": "Generator Rotation Actual",
+    "value": "Disabled"
+  },
+  {
+    "id": "36",
+    "name": "GeneratorCurrentLeadLagA (Generator Current Lead/Lag L1)",
+    "displayname": "Generator Current Lead Lag A",
+    "value": "0"
+  },
+  {
+    "id": "37",
+    "name": "GeneratorCurrentLeadLagB (Generator Current Lead/Lag L2)",
+    "displayname": "Generator Current Lead Lag B",
+    "value": "0"
+  },
+  {
+    "id": "38",
+    "name": "GeneratorCurrentLeadLagC (Generator Current Lead/Lag L3)",
+    "displayname": "Generator Current Lead Lag C",
+    "value": "0"
+  },
+  {
+    "id": "39",
+    "name": "GeneratorCurrentTotalLeadLag (Generator Current Total Lead/Lag)",
+    "displayname": "Generator Current Total Lead Lag",
+    "value": "0"
+  },
+  {
+    "id": "40",
+    "name": "GeneratorPowerFactorA",
+    "displayname": "Generator Power Factor A",
+    "value": "0.0"
+  },
+  {
+    "id": "41",
+    "name": "GeneratorPowerFactorB",
+    "displayname": "Generator Power Factor B",
+    "value": "0.0"
+  },
+  {
+    "id": "42",
+    "name": "GeneratorPowerFactorC",
+    "displayname": "Generator Power Factor C",
+    "value": "0.0"
+  },
+  {
+    "id": "43",
+    "name": "GeneratorTotalPowerFactor",
+    "displayname": "Generator Total Power Factor",
+    "value": "0.0"
+  },
+  {
+    "id": "44",
+    "name": "GeneratorApparentPowerA",
+    "displayname": "Generator Apparent Power A",
+    "value": "0.0"
+  },
+  {
+    "id": "45",
+    "name": "GeneratorApparentPowerB",
+    "displayname": "Generator Apparent Power B",
+    "value": "0.0"
+  },
+  {
+    "id": "46",
+    "name": "GeneratorApparentPowerC",
+    "displayname": "Generator Apparent Power C",
+    "value": "0.0"
+  },
+  {
+    "id": "47",
+    "name": "GeneratorTotalApparentPower",
+    "displayname": "Generator Total Apparent Power",
+    "value": "0.0"
+  },
+  {
+    "id": "48",
+    "name": "GeneratorReactivePowerA",
+    "displayname": "Generator Reactive Power A",
+    "value": "0.0"
+  },
+  {
+    "id": "49",
+    "name": "GeneratorReactivePowerB",
+    "displayname": "Generator Reactive Power B",
+    "value": "0.0"
+  },
+  {
+    "id": "50",
+    "name": "GeneratorReactivePowerC",
+    "displayname": "Generator Reactive Power C",
+    "value": "0.0"
+  },
+  {
+    "id": "51",
+    "name": "GeneratorTotalReactivePower",
+    "displayname": "Generator Total Reactive Power",
+    "value": "0.0"
+  },
+  {
+    "id": "52",
+    "name": "GeneratorTruePowerA",
+    "displayname": "Generator True Power A",
+    "value": "0.0"
+  },
+  {
+    "id": "53",
+    "name": "GeneratorTruePowerB",
+    "displayname": "Generator True Power B",
+    "value": "0.0"
+  },
+  {
+    "id": "54",
+    "name": "GeneratorTruePowerC",
+    "displayname": "Generator True Power C",
+    "value": "0.0"
+  },
+  {
+    "id": "55",
+    "name": "GeneratorTrueTotalPower",
+    "displayname": "Generator True Total Power",
+    "value": "0.0"
+  },
+  {
+    "id": "56",
+    "name": "GeneratorTruePercentOfRatedPower",
+    "displayname": "Generator True Percent Of Rated Power",
+    "value": "0"
+  },
+  {
+    "id": "57",
+    "name": "GeneratorVoltageAB",
+    "displayname": "Generator Voltage AB",
+    "value": "0.0"
+  },
+  {
+    "id": "58",
+    "name": "GeneratorVoltageBC",
+    "displayname": "Generator Voltage BC",
+    "value": "0.0"
+  },
+  {
+    "id": "59",
+    "name": "GeneratorVoltageCA",
+    "displayname": "Generator Voltage CA",
+    "value": "0.0"
+  },
+  {
+    "id": "60",
+    "name": "GeneratorVoltageAverageLineToLine",
+    "displayname": "Generator Voltage Average Line To Line",
+    "value": "0.0"
+  },
+  {
+    "id": "65",
+    "name": "GeneratorCurrentA",
+    "displayname": "Generator Current A",
+    "value": "0.0"
+  },
+  {
+    "id": "66",
+    "name": "GeneratorCurrentB",
+    "displayname": "Generator Current B",
+    "value": "0.0"
+  },
+  {
+    "id": "67",
+    "name": "GeneratorCurrentC",
+    "displayname": "Generator Current C",
+    "value": "0.0"
+  },
+  {
+    "id": "68",
+    "name": "GeneratorCurrentAverage",
+    "displayname": "Generator Current Average",
+    "value": "0.0"
+  },
+  {
+    "id": "69",
+    "name": "GeneratorFrequency",
+    "displayname": "Generator Frequency",
+    "value": "0.0"
+  },
+  {
+    "id": "93",
+    "name": "GensetSerialNumber",
+    "displayname": "Generator Serial Number",
+    "value": "SGM326XMP"
+  },
+  {
+    "id": "94",
+    "name": "AlternatorPartNumber",
+    "displayname": "Alternator Part Number",
+    "value": ""
+  },
+  {
+    "id": "95",
+    "name": "GensetControllerSerialNumber",
+    "displayname": "Generator Controller Serial Number",
+    "value": "1426917377"
+  },
+  {
+    "id": "96",
+    "name": "EnginePartNumber",
+    "displayname": "Engine Part Number",
+    "value": "PS-CH740-0149"
+  },
+  {
+    "id": "97",
+    "name": "EngineModelNumber",
+    "displayname": "Engine Model Number",
+    "value": "CH-740"
+  },
+  {
+    "id": "98",
+    "name": "EngineSerialNumber",
+    "displayname": "Engine Serial Number",
+    "value": "4319802441"
+  },
+  {
+    "id": "102",
+    "name": "GensetState",
+    "displayname": "Generator State",
+    "value": "Standby"
+  },
+  {
+    "id": "91",
+    "name": "GensetModelNumberSelect",
+    "displayname": "Genset Model Number Select",
+    "value": "14 RESA"
+  },
+  {
+    "id": "113",
+    "name": "GensetControllerClockTime",
+    "displayname": "Generator Controller Clock Time",
+    "value": "2021-09-15 08:48:44"
+  },
+  {
+    "id": "114",
+    "name": "GensetControllerTotalOperationTime",
+    "displayname": "Generator Controller Total Operation Time",
+    "value": "68491.4"
+  },
+  {
+    "id": "115",
+    "name": "EngineTotalRunTime",
+    "displayname": "Engine Total Run Time",
+    "value": "148.3"
+  },
+  {
+    "id": "116",
+    "name": "EngineTotalRunTimeLoaded",
+    "displayname": "Engine Total Run Time Loaded",
+    "value": "0.0"
+  },
+  {
+    "id": "118",
+    "name": "EngineTotalNumberOfStarts",
+    "displayname": "Engine Total Number Of Starts",
+    "value": "448"
+  },
+  {
+    "id": "119",
+    "name": "GensetTotalEnergy",
+    "displayname": "Genset Total Energy",
+    "value": "3.2054716E7"
+  },
+  {
+    "id": "121",
+    "name": "GensetDateTimeOfLastMaintenance",
+    "displayname": "Genset Date Time Of Last Maintenance",
+    "value": "2021-09-06 14:30:11"
+  },
+  {
+    "id": "123",
+    "name": "EngineRunTimeUntilMaintenance",
+    "displayname": "Engine Run Time Until Maintenance",
+    "value": "99.7"
+  },
+  {
+    "id": "124",
+    "name": "GensetControllerHoursOfOperationSinceMaintenance",
+    "displayname": "Genset Controller Hours Of Operation Since Maintenance",
+    "value": "68491.4"
+  },
+  {
+    "id": "125",
+    "name": "EngineRunTimeSinceMaintenance",
+    "displayname": "Engine Run Time Since Maintenance",
+    "value": "0.3"
+  },
+  {
+    "id": "128",
+    "name": "EngineNumberOfStartsSinceMaintenance",
+    "displayname": "Engine Number Of Starts Since Maintenance",
+    "value": "448"
+  },
+  {
+    "id": "129",
+    "name": "GensetEnergySinceMaintenance",
+    "displayname": "Genset Energy Since Maintenance",
+    "value": "3.2054716E7"
+  },
+  {
+    "id": "136",
+    "name": "GensetControllerDateFormat",
+    "displayname": "Genset Controller Date Format",
+    "value": "Month Date Year"
+  },
+  {
+    "id": "137",
+    "name": "GensetControllerTimeFormat",
+    "displayname": "Genset Controller Time Format",
+    "value": "Hr12"
+  },
+  {
+    "id": "138",
+    "name": "GensetDateTimeofNextMaintenance",
+    "displayname": "Genset Date Timeof Next Maintenance",
+    "value": "0001-12-25 05:54:26"
+  },
+  {
+    "id": "139",
+    "name": "MaintenancePeriodInDays",
+    "displayname": "Maintenance Period In Days",
+    "value": "365"
+  },
+  {
+    "id": "140",
+    "name": "MaintenancePeriodRemaining",
+    "displayname": "Maintenance Period Remaining",
+    "value": "30778920"
+  },
+  {
+    "id": "141",
+    "name": "GensetControllerClockTimeZoneOffset",
+    "displayname": "Genset Controller Clock Time Zone Offset",
+    "value": "0001-01-03 00:00:00"
+  },
+  {
+    "id": "142",
+    "name": "EcmModel",
+    "displayname": "Ecm Model",
+    "value": "No Ecm"
+  },
+  {
+    "id": "143",
+    "name": "MaximumAlternatorCurrent",
+    "displayname": "Maximum Alternator Current",
+    "value": "58"
+  },
+  {
+    "id": "144",
+    "name": "EngineNumberOfFlywheelTeeth",
+    "displayname": "Engine Number Of Flywheel Teeth",
+    "value": "1"
+  },
+  {
+    "id": "145",
+    "name": "EngineWarmedUpTemperature",
+    "displayname": "Engine Warmed Up Temperature",
+    "value": 89.6
+  },
+  {
+    "id": "146",
+    "name": "EngineCooledDownTemperature",
+    "displayname": "Engine Cooled Down Temperature",
+    "value": 174.2
+  },
+  {
+    "id": "147",
+    "name": "EngineCrankDisconnectSpeed",
+    "displayname": "Engine Crank Disconnect Speed",
+    "value": "750"
+  },
+  {
+    "id": "148",
+    "name": "EngineIdleSpeed",
+    "displayname": "Engine Idle Speed",
+    "value": "2700"
+  },
+  {
+    "id": "149",
+    "name": "EngineRunSpeed",
+    "displayname": "Engine Run Speed",
+    "value": "3600"
+  },
+  {
+    "id": "150",
+    "name": "EngineCoolantTemperatureProtectivesEnabled",
+    "displayname": "Engine Coolant Temperature Protectives Enabled",
+    "value": "0"
+  },
+  {
+    "id": "151",
+    "name": "EngineCoolantTemperatureSensor",
+    "displayname": "Engine Coolant Temperature Sensor",
+    "value": "None"
+  },
+  {
+    "id": "153",
+    "name": "EngineHighCoolantTemperatureInhibitDelay",
+    "displayname": "Engine High Coolant Temperature Inhibit Delay",
+    "value": "0"
+  },
+  {
+    "id": "154",
+    "name": "EngineLowCoolantTemperatureWarningDelay",
+    "displayname": "Engine Low Coolant Temperature Warning Delay",
+    "value": "5"
+  },
+  {
+    "id": "155",
+    "name": "EngineHighCoolantTemperatureWarningDelay",
+    "displayname": "Engine High Coolant Temperature Warning Delay",
+    "value": "0"
+  },
+  {
+    "id": "156",
+    "name": "EngineLowCoolantTemperatureShutdownDelay",
+    "displayname": "Engine Low Coolant Temperature Shutdown Delay",
+    "value": "0"
+  },
+  {
+    "id": "157",
+    "name": "EngineHighCoolantTemperatureShutdownDelay",
+    "displayname": "Engine High Coolant Temperature Shutdown Delay",
+    "value": "0"
+  },
+  {
+    "id": "158",
+    "name": "EngineLowCoolantTemperatureWarningLimit",
+    "displayname": "Engine Low Coolant Temperature Warning Limit",
+    "value": 60.08
+  },
+  {
+    "id": "159",
+    "name": "EngineHighCoolantTemperatureWarningLimit",
+    "displayname": "Engine High Coolant Temperature Warning Limit",
+    "value": 32
+  },
+  {
+    "id": "161",
+    "name": "EngineHighCoolantTemperatureShutdownLimit",
+    "displayname": "Engine High Coolant Temperature Shutdown Limit",
+    "value": 32
+  },
+  {
+    "id": "162",
+    "name": "EngineCoolantTemperatureDeadband",
+    "displayname": "Engine Coolant Temperature Deadband",
+    "value": 33.8
+  },
+  {
+    "id": "163",
+    "name": "PersonalityAlternatorManufacturer",
+    "displayname": "Personality Alternator Manufacturer",
+    "value": "Marathon"
+  },
+  {
+    "id": "164",
+    "name": "PersonalityAlternatorTocTimeConstant",
+    "displayname": "Personality Alternator Toc Time Constant",
+    "value": "-20"
+  },
+  {
+    "id": "165",
+    "name": "PersonalityAlternatorNumberOfPoles",
+    "displayname": "Personality Alternator Number Of Poles",
+    "value": "-1"
+  },
+  {
+    "id": "166",
+    "name": "PersonalityAlternatorType",
+    "displayname": "Personality Alternator Type",
+    "value": "Old Reconnectable Or Dual"
+  },
+  {
+    "id": "167",
+    "name": "PersonalityFixedVoltage50Hz",
+    "displayname": "Personality Fixed Voltage50 Hz",
+    "value": "0"
+  },
+  {
+    "id": "168",
+    "name": "PersonalityPowerRatingSinglePhase50Hz10PF",
+    "displayname": "Personality Power Rating Single Phase50 Hz10 PF",
+    "value": "0"
+  },
+  {
+    "id": "169",
+    "name": "PersonalityPowerRatingSinglePhase50Hz8PF",
+    "displayname": "Personality Power Rating Single Phase50 Hz8 PF",
+    "value": "0"
+  },
+  {
+    "id": "170",
+    "name": "PersonalityPowerRatingFixedVolt50Hz",
+    "displayname": "Personality Power Rating Fixed Volt50 Hz",
+    "value": "0"
+  },
+  {
+    "id": "171",
+    "name": "PersonalityPowerRating50Hz_220_440",
+    "displayname": "Personality Power Rating50 Hz_220_440",
+    "value": "0"
+  },
+  {
+    "id": "172",
+    "name": "PersonalityPowerRating50Hz_208_415",
+    "displayname": "Personality Power Rating50 Hz_208_415",
+    "value": "0"
+  },
+  {
+    "id": "173",
+    "name": "PersonalityPowerRating50Hz_200_400",
+    "displayname": "Personality Power Rating50 Hz_200_400",
+    "value": "0"
+  },
+  {
+    "id": "174",
+    "name": "PersonalityPowerRating50Hz_190_380",
+    "displayname": "Personality Power Rating50 Hz_190_380",
+    "value": "0"
+  },
+  {
+    "id": "175",
+    "name": "PersonalityPowerRating50Hz_173_346",
+    "displayname": "Personality Power Rating50 Hz_173_346",
+    "value": "10000"
+  },
+  {
+    "id": "176",
+    "name": "PersonalityPowerRating50HzDelta",
+    "displayname": "Personality Power Rating50 Hz Delta",
+    "value": "0"
+  },
+  {
+    "id": "177",
+    "name": "PersonalityFixedVoltage60Hz",
+    "displayname": "Personality Fixed Voltage60 Hz",
+    "value": "-1024"
+  },
+  {
+    "id": "178",
+    "name": "PersonalityPowerRatingSinglePhase60Hz10PF",
+    "displayname": "Personality Power Rating Single Phase60 Hz10 PF",
+    "value": "0"
+  },
+  {
+    "id": "179",
+    "name": "PersonalityPowerRatingSinglePhase60Hz8PF",
+    "displayname": "Personality Power Rating Single Phase60 Hz8 PF",
+    "value": "0"
+  },
+  {
+    "id": "180",
+    "name": "PersonalityPowerRatingFixedVolt60Hz",
+    "displayname": "Personality Power Rating Fixed Volt60 Hz",
+    "value": "0"
+  },
+  {
+    "id": "181",
+    "name": "PersonalityPowerRating60Hz_240_480",
+    "displayname": "Personality Power Rating60 Hz_240_480",
+    "value": "0"
+  },
+  {
+    "id": "182",
+    "name": "PersonalityPowerRating60Hz_230_460",
+    "displayname": "Personality Power Rating60 Hz_230_460",
+    "value": "0"
+  },
+  {
+    "id": "183",
+    "name": "PersonalityPowerRating60Hz_220_440",
+    "displayname": "Personality Power Rating60 Hz_220_440",
+    "value": "0"
+  },
+  {
+    "id": "184",
+    "name": "PersonalityPowerRating60Hz_208_416",
+    "displayname": "Personality Power Rating60 Hz_208_416",
+    "value": "0"
+  },
+  {
+    "id": "185",
+    "name": "PersonalityPowerRating60Hz_190_380",
+    "displayname": "Personality Power Rating60 Hz_190_380",
+    "value": "0"
+  },
+  {
+    "id": "186",
+    "name": "PersonalityPowerRating60HzDelta",
+    "displayname": "Personality Power Rating60 Hz Delta",
+    "value": "0"
+  },
+  {
+    "id": "188",
+    "name": "PersonalityInstalledOptions",
+    "displayname": "Personality Installed Options",
+    "value": "0"
+  },
+  {
+    "id": "190",
+    "name": "GensetSystemVoltage",
+    "displayname": "Genset System Voltage",
+    "value": "240.0"
+  },
+  {
+    "id": "191",
+    "name": "GensetSystemFrequency",
+    "displayname": "Genset System Frequency",
+    "value": "60.0"
+  },
+  {
+    "id": "192",
+    "name": "GensetVoltagePhaseConnection",
+    "displayname": "Genset Voltage Phase Connection",
+    "value": "Single Phase"
+  },
+  {
+    "id": "193",
+    "name": "GensetPowerRating",
+    "displayname": "Genset Power Rating",
+    "value": "14.0"
+  },
+  {
+    "id": "194",
+    "name": "GensetRatedCurrent",
+    "displayname": "Genset Rated Current",
+    "value": "58.3"
+  },
+  {
+    "id": "195",
+    "name": "GensetSystemBatteryVoltage",
+    "displayname": "Genset System Battery Voltage",
+    "value": "Twelve Volts"
+  },
+  {
+    "id": "196",
+    "name": "PrimePowerApplication",
+    "displayname": "Prime Power Application",
+    "value": "Standby"
+  },
+  {
+    "id": "197",
+    "name": "CurrentTransformerRatio",
+    "displayname": "Current Transformer Ratio",
+    "value": "400"
+  },
+  {
+    "id": "198",
+    "name": "LocalStartMode",
+    "displayname": "Local Start Mode",
+    "value": "Off"
+  },
+  {
+    "id": "199",
+    "name": "MeasurementSystem",
+    "displayname": "Measurement System",
+    "value": "English"
+  },
+  {
+    "id": "200",
+    "name": "EcmPower",
+    "displayname": "Ecm Power",
+    "value": "Off"
+  },
+  {
+    "id": "200",
+    "name": "EcmPower",
+    "displayname": "Ecm Power",
+    "value": "Off"
+  },
+  {
+    "id": "206",
+    "name": "DisplayContrast",
+    "displayname": "Display Contrast",
+    "value": "35"
+  },
+  {
+    "id": "208",
+    "name": "GensetSystemLanguage",
+    "displayname": "Genset System Language",
+    "value": "English"
+  },
+  {
+    "id": "209",
+    "name": "GensetMaximumPercentCapacity",
+    "displayname": "Genset Maximum Percent Capacity",
+    "value": "70.0"
+  },
+  {
+    "id": "210",
+    "name": "GeneratorOverloadedPercent",
+    "displayname": "Generator Overloaded Percent",
+    "value": "85.0"
+  },
+  {
+    "id": "211",
+    "name": "GensetFuelType",
+    "displayname": "Genset Fuel Type",
+    "value": "Liquid Propane"
+  },
+  {
+    "id": "212",
+    "name": "AutomaticStartMinimumVoltage",
+    "displayname": "Automatic Start Minimum Voltage",
+    "value": "51.0"
+  },
+  {
+    "id": "213",
+    "name": "AutomaticStopMinimumPercentLoad",
+    "displayname": "Automatic Stop Minimum Percent Load",
+    "value": "20.0"
+  },
+  {
+    "id": "215",
+    "name": "AutomaticStartMinimumVoltageDelay",
+    "displayname": "Automatic Start Minimum Voltage Delay",
+    "value": "180.0"
+  },
+  {
+    "id": "216",
+    "name": "AutomaticStopMinimumLoadDelay",
+    "displayname": "Automatic Stop Minimum Load Delay",
+    "value": "180.0"
+  },
+  {
+    "id": "219",
+    "name": "GensetCalibrationFactorVoltageAB",
+    "displayname": "Genset Calibration Factor Voltage AB",
+    "value": "0.999424"
+  },
+  {
+    "id": "220",
+    "name": "GensetCalibrationFactorVoltageBC",
+    "displayname": "Genset Calibration Factor Voltage BC",
+    "value": "1.0"
+  },
+  {
+    "id": "221",
+    "name": "GensetCalibrationFactorVoltageCA",
+    "displayname": "Genset Calibration Factor Voltage CA",
+    "value": "1.0"
+  },
+  {
+    "id": "222",
+    "name": "GensetCalibrationFactorVoltageAN",
+    "displayname": "Genset Calibration Factor Voltage AN",
+    "value": "1.0"
+  },
+  {
+    "id": "225",
+    "name": "GensetCalibrationFactorCurrentA",
+    "displayname": "Genset Calibration Factor Current A",
+    "value": "1.0"
+  },
+  {
+    "id": "226",
+    "name": "GensetCalibrationFactorCurrentB",
+    "displayname": "Genset Calibration Factor Current B",
+    "value": "1.0"
+  },
+  {
+    "id": "227",
+    "name": "GensetCalibrationFactorCurrentC",
+    "displayname": "Genset Calibration Factor Current C",
+    "value": "1.0"
+  },
+  {
+    "id": "228",
+    "name": "CurrentTransformerCalibrationAtNoLoad",
+    "displayname": "Current Transformer Calibration At No Load",
+    "value": "3.5"
+  },
+  {
+    "id": "229",
+    "name": "CurrentTransformerCalibrationAtFullLoad",
+    "displayname": "Current Transformer Calibration At Full Load",
+    "value": "121.5"
+  },
+  {
+    "id": "245",
+    "name": "VoltageRegulatorAverageVoltageAdjustment",
+    "displayname": "Voltage Regulator Average Voltage Adjustment",
+    "value": "240.0"
+  },
+  {
+    "id": "246",
+    "name": "VoltageRegulatorVoltsPerHertzSlope",
+    "displayname": "Voltage Regulator Volts Per Hertz Slope",
+    "value": "5"
+  },
+  {
+    "id": "247",
+    "name": "VoltageRegulatorVoltsPerHertzCutInFrequency",
+    "displayname": "Voltage Regulator Volts Per Hertz Cut In Frequency",
+    "value": "59.0"
+  },
+  {
+    "id": "248",
+    "name": "VoltageRegulatorGain",
+    "displayname": "Voltage Regulator Gain",
+    "value": "128"
+  },
+  {
+    "id": "265",
+    "name": "EngineStartDelay",
+    "displayname": "Engine Start Delay",
+    "value": "0"
+  },
+  {
+    "id": "267",
+    "name": "EngineCoolDownDelay",
+    "displayname": "Engine Cool Down Delay",
+    "value": "300"
+  },
+  {
+    "id": "270",
+    "name": "EngineCrankOnDelay",
+    "displayname": "Engine Crank On Delay",
+    "value": "15"
+  },
+  {
+    "id": "271",
+    "name": "EngineCrankPauseDelay",
+    "displayname": "Engine Crank Pause Delay",
+    "value": "15"
+  },
+  {
+    "id": "272",
+    "name": "EngineNumberOfCrankCycles",
+    "displayname": "Engine Number Of Crank Cycles",
+    "value": "3"
+  },
+  {
+    "id": "274",
+    "name": "GensetLowBatteryVoltageWarningDelay",
+    "displayname": "Genset Low Battery Voltage Warning Delay",
+    "value": "90"
+  },
+  {
+    "id": "275",
+    "name": "GensetHighBatteryVoltageWarningDelay",
+    "displayname": "Genset High Battery Voltage Warning Delay",
+    "value": "10"
+  },
+  {
+    "id": "276",
+    "name": "GensetLowBatteryVoltageWarningLimit",
+    "displayname": "Genset Low Battery Voltage Warning Limit",
+    "value": "100"
+  },
+  {
+    "id": "277",
+    "name": "GensetHighBatteryVoltageWarningLimit",
+    "displayname": "Genset High Battery Voltage Warning Limit",
+    "value": "125"
+  },
+  {
+    "id": "278",
+    "name": "GensetBatteryLowCrankingVoltageWarningDelay",
+    "displayname": "Genset Battery Low Cranking Voltage Warning Delay",
+    "value": "6"
+  },
+  {
+    "id": "279",
+    "name": "GensetBatteryLowCrankingVoltageWarningLimit",
+    "displayname": "Genset Battery Low Cranking Voltage Warning Limit",
+    "value": "60"
+  },
+  {
+    "id": "292",
+    "name": "EngineLockedRotorShutdownDelay",
+    "displayname": "Engine Locked Rotor Shutdown Delay",
+    "value": "3"
+  },
+  {
+    "id": "294",
+    "name": "GensetLowEngineSpeedShutdownLimit",
+    "displayname": "Genset Low Engine Speed Shutdown Limit",
+    "value": "85"
+  },
+  {
+    "id": "295",
+    "name": "GensetHighEngineSpeedShutdownLimit",
+    "displayname": "Genset High Engine Speed Shutdown Limit",
+    "value": "115"
+  },
+  {
+    "id": "303",
+    "name": "EngineLowOilPressureWarningLimit",
+    "displayname": "Engine Low Oil Pressure Warning Limit",
+    "value": 0
+  },
+  {
+    "id": "306",
+    "name": "EngineHighOilPressureShutdownLimit",
+    "displayname": "Engine High Oil Pressure Shutdown Limit",
+    "value": 0
+  },
+  {
+    "id": "308",
+    "name": "LossOfACSensingShutdownDelay",
+    "displayname": "Loss Of ACSensing Shutdown Delay",
+    "value": "3"
+  },
+  {
+    "id": "309",
+    "name": "GensetLowVoltageShutdownDelay",
+    "displayname": "Genset Low Voltage Shutdown Delay",
+    "value": "10"
+  },
+  {
+    "id": "310",
+    "name": "GensetHighVoltageShutdownDelay",
+    "displayname": "Genset High Voltage Shutdown Delay",
+    "value": "2"
+  },
+  {
+    "id": "311",
+    "name": "GensetLowVoltageShutdownLimit",
+    "displayname": "Genset Low Voltage Shutdown Limit",
+    "value": "80"
+  },
+  {
+    "id": "312",
+    "name": "GensetHighVoltageShutdownLimit",
+    "displayname": "Genset High Voltage Shutdown Limit",
+    "value": "120"
+  },
+  {
+    "id": "313",
+    "name": "GensetShortTermLowFrequencyShutdownDelay",
+    "displayname": "Genset Short Term Low Frequency Shutdown Delay",
+    "value": "10"
+  },
+  {
+    "id": "314",
+    "name": "GensetLongTermLowFrequencyShutdownDelay",
+    "displayname": "Genset Long Term Low Frequency Shutdown Delay",
+    "value": "60"
+  },
+  {
+    "id": "315",
+    "name": "GensetHighFrequencyShutdownDelay",
+    "displayname": "Genset High Frequency Shutdown Delay",
+    "value": "10"
+  },
+  {
+    "id": "316",
+    "name": "GensetLowFrequencyShutdownLimit",
+    "displayname": "Genset Low Frequency Shutdown Limit",
+    "value": "90"
+  },
+  {
+    "id": "317",
+    "name": "GensetHighFrequencyShutdownLimit",
+    "displayname": "Genset High Frequency Shutdown Limit",
+    "value": "110"
+  },
+  {
+    "id": "239",
+    "name": "ProportionalGain",
+    "displayname": "Proportional Gain",
+    "value": "1.0"
+  },
+  {
+    "id": "240",
+    "name": "TransientIntegralGain",
+    "displayname": "Transient Integral Gain",
+    "value": "0.75"
+  },
+  {
+    "id": "241",
+    "name": "DerivativeGain",
+    "displayname": "Derivative Gain",
+    "value": "1.0"
+  },
+  {
+    "id": "242",
+    "name": "SlowCorrectionIntegralGain",
+    "displayname": "Slow Correction Integral Gain",
+    "value": "0.3999939"
+  },
+  {
+    "id": "243",
+    "name": "DiagnosticDerivativeGain",
+    "displayname": "Diagnostic Derivative Gain",
+    "value": "2.0"
+  },
+  {
+    "id": "244",
+    "name": "DiagnosticTransientIntegralGain",
+    "displayname": "Diagnostic Transient Integral Gain",
+    "value": "2.5"
+  },
+  {
+    "id": "549",
+    "name": "AtsContactorPosition",
+    "displayname": "Ats Contactor Position",
+    "value": "0"
+  },
+  {
+    "id": "550",
+    "name": "AtsSourcesAvailable",
+    "displayname": "Ats Sources Available",
+    "value": "0"
+  },
+  {
+    "id": "563",
+    "name": "Source1RotationActual",
+    "displayname": "Source1 Rotation Actual",
+    "value": "Disabled"
+  },
+  {
+    "id": "585",
+    "name": "Source1VoltageAB",
+    "displayname": "Source1 Voltage AB",
+    "value": "0.0"
+  },
+  {
+    "id": "586",
+    "name": "Source1VoltageBC",
+    "displayname": "Source1 Voltage BC",
+    "value": "0.0"
+  },
+  {
+    "id": "587",
+    "name": "Source1VoltageCA",
+    "displayname": "Source1 Voltage CA",
+    "value": "0.0"
+  },
+  {
+    "id": "588",
+    "name": "Source1VoltageAverageLineToLine",
+    "displayname": "Source1 Voltage Average Line To Line",
+    "value": "0.0"
+  },
+  {
+    "id": "597",
+    "name": "Source1Frequency",
+    "displayname": "Source1 Frequency",
+    "value": "0.0"
+  },
+  {
+    "id": "598",
+    "name": "Source2RotationActual",
+    "displayname": "Source2 Rotation Actual",
+    "value": "Disabled"
+  },
+  {
+    "id": "620",
+    "name": "Source2VoltageAB",
+    "displayname": "Source2 Voltage AB",
+    "value": "0.0"
+  },
+  {
+    "id": "621",
+    "name": "Source2VoltageBC",
+    "displayname": "Source2 Voltage BC",
+    "value": "0.0"
+  },
+  {
+    "id": "622",
+    "name": "Source2VoltageCA",
+    "displayname": "Source2 Voltage CA",
+    "value": "0.0"
+  },
+  {
+    "id": "623",
+    "name": "Source2VoltageAverageLineToLine",
+    "displayname": "Source2 Voltage Average Line To Line",
+    "value": "0.0"
+  },
+  {
+    "id": "632",
+    "name": "Source2Frequency",
+    "displayname": "Source2 Frequency",
+    "value": "0.0"
+  },
+  {
+    "id": "689",
+    "name": "AtsSource",
+    "displayname": "Ats Source",
+    "value": "Remote"
+  },
+  {
+    "id": "696",
+    "name": "Source1SystemVoltage",
+    "displayname": "Source1 System Voltage",
+    "value": "240.0"
+  },
+  {
+    "id": "697",
+    "name": "Source1SystemFrequency",
+    "displayname": "Source1 System Frequency",
+    "value": "60.0"
+  },
+  {
+    "id": "700",
+    "name": "Source1VoltageDebounceDelay",
+    "displayname": "Source1 Voltage Debounce Delay",
+    "value": "0.5"
+  },
+  {
+    "id": "706",
+    "name": "Source1LowVoltagePickup",
+    "displayname": "Source1 Low Voltage Pickup",
+    "value": "90"
+  },
+  {
+    "id": "707",
+    "name": "Source1LowVoltageDropout",
+    "displayname": "Source1 Low Voltage Dropout",
+    "value": "90"
+  },
+  {
+    "id": "713",
+    "name": "Source1CalibrationFactorVoltageAB",
+    "displayname": "Source1 Calibration Factor Voltage AB",
+    "value": "1.0"
+  },
+  {
+    "id": "714",
+    "name": "Source1CalibrationFactorVoltageBC",
+    "displayname": "Source1 Calibration Factor Voltage BC",
+    "value": "1.0"
+  },
+  {
+    "id": "715",
+    "name": "Source1CalibrationFactorVoltageCA",
+    "displayname": "Source1 Calibration Factor Voltage CA",
+    "value": "1.0"
+  },
+  {
+    "id": "722",
+    "name": "Source2SystemVoltage",
+    "displayname": "Source2 System Voltage",
+    "value": "240.0"
+  },
+  {
+    "id": "723",
+    "name": "Source2SystemFrequency",
+    "displayname": "Source2 System Frequency",
+    "value": "60.0"
+  },
+  {
+    "id": "726",
+    "name": "Source2VoltageDebounceDelay",
+    "displayname": "Source2 Voltage Debounce Delay",
+    "value": "0.5"
+  },
+  {
+    "id": "732",
+    "name": "Source2LowVoltagePickup",
+    "displayname": "Source2 Low Voltage Pickup",
+    "value": "90"
+  },
+  {
+    "id": "733",
+    "name": "Source2LowVoltageDropout",
+    "displayname": "Source2 Low Voltage Dropout",
+    "value": "90"
+  },
+  {
+    "id": "739",
+    "name": "Source2CalibrationFactorVoltageAB",
+    "displayname": "Source2 Calibration Factor Voltage AB",
+    "value": "1.0"
+  },
+  {
+    "id": "740",
+    "name": "Source2CalibrationFactorVoltageBC",
+    "displayname": "Source2 Calibration Factor Voltage BC",
+    "value": "1.0"
+  },
+  {
+    "id": "741",
+    "name": "Source2CalibrationFactorVoltageCA",
+    "displayname": "Source2 Calibration Factor Voltage CA",
+    "value": "1.0"
+  },
+  {
+    "id": "748",
+    "name": "ExerciseInterval",
+    "displayname": "Exercise Interval",
+    "value": "Weekly"
+  },
+  {
+    "id": "749",
+    "name": "ExerciseRunDuration",
+    "displayname": "Exercise Run Duration",
+    "value": "20"
+  },
+  {
+    "id": "750",
+    "name": "ExerciseMode",
+    "displayname": "Exercise Mode",
+    "value": "Unloaded Full Speed"
+  },
+  {
+    "id": "751",
+    "name": "ExerciseWarningEnabled",
+    "displayname": "Exercise Warning Enabled",
+    "value": "True"
+  },
+  {
+    "id": "752",
+    "name": "AtsTransferFromPreferredDelay",
+    "displayname": "Ats Transfer From Preferred Delay",
+    "value": "3"
+  },
+  {
+    "id": "753",
+    "name": "AtsTransferFromStandbyDelay",
+    "displayname": "Ats Transfer From Standby Delay",
+    "value": "120"
+  },
+  {
+    "id": "756",
+    "name": "AtsSource2EngineStartDelay",
+    "displayname": "Ats Source2 Engine Start Delay",
+    "value": "3"
+  },
+  {
+    "id": "852",
+    "name": "IsModbusMaster",
+    "displayname": "Is Modbus Master",
+    "value": "False"
+  },
+  {
+    "id": "857",
+    "name": "DhcpEnabled",
+    "displayname": "Dhcp Enabled",
+    "value": "True"
+  },
+  {
+    "id": "858",
+    "name": "StaticIPAddress",
+    "displayname": "Static IP Address",
+    "value": "0.0.0.0"
+  },
+  {
+    "id": "859",
+    "name": "StaticSubnetMask",
+    "displayname": "Static Subnet Mask",
+    "value": "0.0.0.0"
+  },
+  {
+    "id": "860",
+    "name": "StaticDefaultGateway",
+    "displayname": "Static Default Gateway",
+    "value": "0.0.0.0"
+  },
+  {
+    "id": "861",
+    "name": "StaticDnsServer1",
+    "displayname": "Static Dns Server1",
+    "value": "0.0.0.0"
+  },
+  {
+    "id": "862",
+    "name": "StaticDnsServer2",
+    "displayname": "Static Dns Server2",
+    "value": "0.0.0.0"
+  },
+  {
+    "id": "864",
+    "name": "IPAddress",
+    "displayname": "IP Address",
+    "value": "24.115.201.23:41417"
+  },
+  {
+    "id": "865",
+    "name": "SubnetMask",
+    "displayname": "Subnet Mask",
+    "value": "255.255.255.0"
+  },
+  {
+    "id": "866",
+    "name": "DefaultGateway",
+    "displayname": "Default Gateway",
+    "value": "192.168.27.1"
+  },
+  {
+    "id": "867",
+    "name": "DnsServer1",
+    "displayname": "Dns Server1",
+    "value": "192.168.27.6"
+  },
+  {
+    "id": "868",
+    "name": "DnsServer2",
+    "displayname": "Dns Server2",
+    "value": "192.168.27.9"
+  },
+  {
+    "id": "869",
+    "name": "MacAddress",
+    "displayname": "Mac Address",
+    "value": "183077451011072"
+  },
+  {
+    "id": "870",
+    "name": "ConnectedServerIPAddress",
+    "displayname": "Connected Server IP Address",
+    "value": "40.117.195.28"
+  },
+  {
+    "id": "872",
+    "name": "NetworkConnectionEstablished",
+    "displayname": "Network Connection Established",
+    "value": "true"
+  },
+  {
+    "id": "873",
+    "name": "MediaConnected",
+    "displayname": "Media Connected",
+    "value": "True"
+  },
+  {
+    "id": "903",
+    "name": "RbusActive",
+    "displayname": "Rbus Active",
+    "value": "False"
+  },
+  {
+    "id": "904",
+    "name": "RbusConnectionCount",
+    "displayname": "Rbus Connection Count",
+    "value": "0"
+  },
+  {
+    "id": "905",
+    "name": "RbusNetCycleTime",
+    "displayname": "Rbus Net Cycle Time",
+    "value": "140"
+  },
+  {
+    "id": "906",
+    "name": "RbusTimeouts",
+    "displayname": "Rbus Timeouts",
+    "value": "0"
+  },
+  {
+    "id": "907",
+    "name": "RbusErrors",
+    "displayname": "Rbus Errors",
+    "value": "0"
+  },
+  {
+    "id": "863",
+    "name": "ServerHostName",
+    "displayname": "Server Host Name",
+    "value": "devices.kohler.com"
+  },
+  {
+    "id": "908",
+    "name": "SerialNumber",
+    "displayname": "Serial Number",
+    "value": "-1"
+  },
+  {
+    "id": "909",
+    "name": "Type",
+    "displayname": "Type",
+    "value": "Invalid"
+  },
+  {
+    "id": "910",
+    "name": "CommunicationErrors",
+    "displayname": "Communication Errors",
+    "value": "0"
+  },
+  {
+    "id": "911",
+    "name": "CommunicationTimeouts",
+    "displayname": "Communication Timeouts",
+    "value": "0"
+  },
+  {
+    "id": "912",
+    "name": "ModbusId",
+    "displayname": "Modbus Id",
+    "value": "0"
+  },
+  {
+    "id": "913",
+    "name": "LastConnectionDate",
+    "displayname": "Last Connection Date",
+    "value": "0001-01-03 00:00:00"
+  },
+  {
+    "id": "914",
+    "name": "FirmwareVersion",
+    "displayname": "Firmware Version",
+    "value": "0.0.0"
+  },
+  {
+    "id": "915",
+    "name": "Connected",
+    "displayname": "Connected",
+    "value": "False"
+  },
+  {
+    "id": "1221",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1222",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Low Fuel Pressure "
+  },
+  {
+    "id": "1224",
+    "name": "SwitchType",
+    "displayname": "Switch Type",
+    "value": "Normally Open"
+  },
+  {
+    "id": "1225",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1226",
+    "name": "Enabled",
+    "displayname": "Enabled",
+    "value": "True"
+  },
+  {
+    "id": "1227",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Auxiliary Input Value Fault"
+  },
+  {
+    "id": "1229",
+    "name": "SwitchType",
+    "displayname": "Switch Type",
+    "value": "Normally Open"
+  },
+  {
+    "id": "1230",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1231",
+    "name": "Enabled",
+    "displayname": "Enabled",
+    "value": "True"
+  },
+  {
+    "id": "1232",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Battery Charger Fault Value "
+  },
+  {
+    "id": "1234",
+    "name": "SwitchType",
+    "displayname": "Switch Type",
+    "value": "Normally Open"
+  },
+  {
+    "id": "1289",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1290",
+    "name": "Enabled",
+    "displayname": "Enabled",
+    "value": "False"
+  },
+  {
+    "id": "1291",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "None Value "
+  },
+  {
+    "id": "1292",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1293",
+    "name": "Enabled",
+    "displayname": "Enabled",
+    "value": "False"
+  },
+  {
+    "id": "1294",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "None Value "
+  },
+  {
+    "id": "1315",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1316",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Nfpa110 Alarm Active Value Warning"
+  },
+  {
+    "id": "1319",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1320",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Generator Running Value "
+  },
+  {
+    "id": "1321",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1322",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Common Fault Value "
+  },
+  {
+    "id": "1323",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1324",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Low Battery Voltage "
+  },
+  {
+    "id": "1325",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1326",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Not In Auto Value Fault"
+  },
+  {
+    "id": "1327",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1328",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Engine Cool Down Active Value "
+  },
+  {
+    "id": "1329",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1330",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Normal Power Source Unavailable Value "
+  },
+  {
+    "id": "1331",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1332",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Load Priority 2 Shed Value "
+  },
+  {
+    "id": "1333",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1334",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Load Priority 5 Shed Value Fault"
+  },
+  {
+    "id": "1335",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1336",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Load Priority 1 Shed Value Fault"
+  },
+  {
+    "id": "1337",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1338",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Load Priority 3 Shed Value "
+  },
+  {
+    "id": "1339",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1340",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Load Priority 4 Shed Value Warning"
+  },
+  {
+    "id": "1341",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "False"
+  },
+  {
+    "id": "1342",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Load Priority 6 Shed Value "
+  },
+  {
+    "id": "1395",
+    "name": "ProtectivesEnabled",
+    "displayname": "Protectives Enabled",
+    "value": "0"
+  },
+  {
+    "id": "1398",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "Engine Fuel Level "
+  },
+  {
+    "id": "1399",
+    "name": "Sensor",
+    "displayname": "Sensor",
+    "value": "Fuel Level"
+  },
+  {
+    "id": "1424",
+    "name": "InhibitDelay",
+    "displayname": "Inhibit Delay",
+    "value": "0"
+  },
+  {
+    "id": "1425",
+    "name": "Delay",
+    "displayname": "Delay",
+    "value": "0"
+  },
+  {
+    "id": "1426",
+    "name": "InhibitDelay",
+    "displayname": "Inhibit Delay",
+    "value": "0"
+  },
+  {
+    "id": "1427",
+    "name": "Delay",
+    "displayname": "Delay",
+    "value": "0"
+  },
+  {
+    "id": "1428",
+    "name": "InhibitDelay",
+    "displayname": "Inhibit Delay",
+    "value": "0"
+  },
+  {
+    "id": "1429",
+    "name": "Delay",
+    "displayname": "Delay",
+    "value": "0"
+  },
+  {
+    "id": "1474",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "0.0"
+  },
+  {
+    "id": "1475",
+    "name": "RelativeValue",
+    "displayname": "Relative Value",
+    "value": "0.0"
+  },
+  {
+    "id": "1476",
+    "name": "LowProtectiveInhibitDelay",
+    "displayname": "Low Protective Inhibit Delay",
+    "value": "0"
+  },
+  {
+    "id": "1477",
+    "name": "HighProtectiveInhibitDelay",
+    "displayname": "High Protective Inhibit Delay",
+    "value": "0"
+  },
+  {
+    "id": "1481",
+    "name": "NormalDelay",
+    "displayname": "Normal Delay",
+    "value": "0"
+  },
+  {
+    "id": "1482",
+    "name": "LowWarningDelay",
+    "displayname": "Low Warning Delay",
+    "value": "30"
+  },
+  {
+    "id": "1483",
+    "name": "CriticallyLowWarningDelay",
+    "displayname": "Critically Low Warning Delay",
+    "value": "0"
+  },
+  {
+    "id": "1484",
+    "name": "HighWarningDelay",
+    "displayname": "High Warning Delay",
+    "value": "0"
+  },
+  {
+    "id": "1485",
+    "name": "CriticallyHighWarningDelay",
+    "displayname": "Critically High Warning Delay",
+    "value": "0"
+  },
+  {
+    "id": "1486",
+    "name": "LowShutdownDelay",
+    "displayname": "Low Shutdown Delay",
+    "value": "10"
+  },
+  {
+    "id": "1487",
+    "name": "HighShutdownDelay",
+    "displayname": "High Shutdown Delay",
+    "value": "0"
+  },
+  {
+    "id": "1488",
+    "name": "LowWarningLimit",
+    "displayname": "Low Warning Limit",
+    "value": "35.0"
+  },
+  {
+    "id": "1489",
+    "name": "CriticallyLowWarningLimit",
+    "displayname": "Critically Low Warning Limit",
+    "value": "0.0"
+  },
+  {
+    "id": "1490",
+    "name": "LowShutdownLimit",
+    "displayname": "Low Shutdown Limit",
+    "value": "5.0"
+  },
+  {
+    "id": "1491",
+    "name": "HighWarningLimit",
+    "displayname": "High Warning Limit",
+    "value": "90.0"
+  },
+  {
+    "id": "1492",
+    "name": "CriticallyHighWarningLimit",
+    "displayname": "Critically High Warning Limit",
+    "value": "95.0"
+  },
+  {
+    "id": "1493",
+    "name": "HighShutdownLimit",
+    "displayname": "High Shutdown Limit",
+    "value": "0.0"
+  },
+  {
+    "id": "1494",
+    "name": "Deadband",
+    "displayname": "Deadband",
+    "value": "0.0"
+  },
+  {
+    "id": "1543",
+    "name": "Value",
+    "displayname": "Value",
+    "value": "0.0"
+  },
+  {
+    "id": "1544",
+    "name": "RelativeValue",
+    "displayname": "Relative Value",
+    "value": "0.0"
+  },
+  {
+    "id": "1412",
+    "name": "ProtectivesEnabled",
+    "displayname": "Protectives Enabled",
+    "value": "0"
+  },
+  {
+    "id": "1413",
+    "name": "Event",
+    "displayname": "Event",
+    "value": "None Value "
+  },
+  {
+    "id": "1414",
+    "name": "Sensor",
+    "displayname": "Sensor",
+    "value": "None"
+  },
+  {
+    "id": "1545",
+    "name": "LowProtectiveInhibitDelay",
+    "displayname": "Low Protective Inhibit Delay",
+    "value": "0"
+  },
+  {
+    "id": "1546",
+    "name": "HighProtectiveInhibitDelay",
+    "displayname": "High Protective Inhibit Delay",
+    "value": "0"
+  },
+  {
+    "id": "1547",
+    "name": "NormalDelay",
+    "displayname": "Normal Delay",
+    "value": "0"
+  },
+  {
+    "id": "1548",
+    "name": "LowWarningDelay",
+    "displayname": "Low Warning Delay",
+    "value": "0"
+  },
+  {
+    "id": "1549",
+    "name": "CriticallyLowWarningDelay",
+    "displayname": "Critically Low Warning Delay",
+    "value": "0"
+  },
+  {
+    "id": "1550",
+    "name": "HighWarningDelay",
+    "displayname": "High Warning Delay",
+    "value": "0"
+  },
+  {
+    "id": "1551",
+    "name": "CriticallyHighWarningDelay",
+    "displayname": "Critically High Warning Delay",
+    "value": "0"
+  },
+  {
+    "id": "1552",
+    "name": "LowShutdownDelay",
+    "displayname": "Low Shutdown Delay",
+    "value": "0"
+  },
+  {
+    "id": "1553",
+    "name": "HighShutdownDelay",
+    "displayname": "High Shutdown Delay",
+    "value": "0"
+  },
+  {
+    "id": "1554",
+    "name": "LowWarningLimit",
+    "displayname": "Low Warning Limit",
+    "value": "0.0"
+  },
+  {
+    "id": "1555",
+    "name": "CriticallyLowWarningLimit",
+    "displayname": "Critically Low Warning Limit",
+    "value": "0.0"
+  },
+  {
+    "id": "1556",
+    "name": "LowShutdownLimit",
+    "displayname": "Low Shutdown Limit",
+    "value": "0.0"
+  },
+  {
+    "id": "1557",
+    "name": "HighWarningLimit",
+    "displayname": "High Warning Limit",
+    "value": "0.0"
+  },
+  {
+    "id": "1558",
+    "name": "CriticallyHighWarningLimit",
+    "displayname": "Critically High Warning Limit",
+    "value": "0.0"
+  },
+  {
+    "id": "1559",
+    "name": "HighShutdownLimit",
+    "displayname": "High Shutdown Limit",
+    "value": "0.0"
+  },
+  {
+    "id": "1560",
+    "name": "Deadband",
+    "displayname": "Deadband",
+    "value": "0.0"
+  },
+  {
+    "id": "1671",
+    "name": "LatestFirmware",
+    "displayname": "Latest Firmware",
+    "value": "6.12.2"
+  },
+  {
+    "id": "1615",
+    "name": "SerialNumber",
+    "displayname": "Serial Number",
+    "value": "-1"
+  },
+  {
+    "id": "1616",
+    "name": "Type",
+    "displayname": "Type",
+    "value": "Invalid"
+  },
+  {
+    "id": "1617",
+    "name": "CommunicationErrors",
+    "displayname": "Communication Errors",
+    "value": "0"
+  },
+  {
+    "id": "1618",
+    "name": "CommunicationTimeouts",
+    "displayname": "Communication Timeouts",
+    "value": "0"
+  },
+  {
+    "id": "1619",
+    "name": "ModbusId",
+    "displayname": "Modbus Id",
+    "value": "0"
+  },
+  {
+    "id": "1620",
+    "name": "LastConnectionDate",
+    "displayname": "Last Connection Date",
+    "value": "0001-01-03 00:00:00"
+  },
+  {
+    "id": "1621",
+    "name": "FirmwareVersion",
+    "displayname": "Firmware Version",
+    "value": "0.0.0"
+  },
+  {
+    "id": "1622",
+    "name": "Connected",
+    "displayname": "Connected",
+    "value": "False"
+  },
+  {
+    "id": "1623",
+    "name": "SerialNumber",
+    "displayname": "Serial Number",
+    "value": "-1"
+  },
+  {
+    "id": "1624",
+    "name": "Type",
+    "displayname": "Type",
+    "value": "Invalid"
+  },
+  {
+    "id": "1625",
+    "name": "CommunicationErrors",
+    "displayname": "Communication Errors",
+    "value": "0"
+  },
+  {
+    "id": "1626",
+    "name": "CommunicationTimeouts",
+    "displayname": "Communication Timeouts",
+    "value": "0"
+  },
+  {
+    "id": "1627",
+    "name": "ModbusId",
+    "displayname": "Modbus Id",
+    "value": "0"
+  },
+  {
+    "id": "1628",
+    "name": "LastConnectionDate",
+    "displayname": "Last Connection Date",
+    "value": "0001-01-03 00:00:00"
+  },
+  {
+    "id": "1629",
+    "name": "FirmwareVersion",
+    "displayname": "Firmware Version",
+    "value": "0.0.0"
+  },
+  {
+    "id": "1630",
+    "name": "Connected",
+    "displayname": "Connected",
+    "value": "False"
+  },
+  {
+    "id": "1631",
+    "name": "SerialNumber",
+    "displayname": "Serial Number",
+    "value": "-1"
+  },
+  {
+    "id": "1632",
+    "name": "Type",
+    "displayname": "Type",
+    "value": "Invalid"
+  },
+  {
+    "id": "1633",
+    "name": "CommunicationErrors",
+    "displayname": "Communication Errors",
+    "value": "0"
+  },
+  {
+    "id": "1634",
+    "name": "CommunicationTimeouts",
+    "displayname": "Communication Timeouts",
+    "value": "0"
+  },
+  {
+    "id": "1635",
+    "name": "ModbusId",
+    "displayname": "Modbus Id",
+    "value": "0"
+  },
+  {
+    "id": "1636",
+    "name": "LastConnectionDate",
+    "displayname": "Last Connection Date",
+    "value": "0001-01-03 00:00:00"
+  },
+  {
+    "id": "1637",
+    "name": "FirmwareVersion",
+    "displayname": "Firmware Version",
+    "value": "0.0.0"
+  },
+  {
+    "id": "1638",
+    "name": "Connected",
+    "displayname": "Connected",
+    "value": "False"
+  },
+  {
+    "id": "1639",
+    "name": "SerialNumber",
+    "displayname": "Serial Number",
+    "value": "-1"
+  },
+  {
+    "id": "1640",
+    "name": "Type",
+    "displayname": "Type",
+    "value": "Invalid"
+  },
+  {
+    "id": "1641",
+    "name": "CommunicationErrors",
+    "displayname": "Communication Errors",
+    "value": "0"
+  },
+  {
+    "id": "1642",
+    "name": "CommunicationTimeouts",
+    "displayname": "Communication Timeouts",
+    "value": "0"
+  },
+  {
+    "id": "1643",
+    "name": "ModbusId",
+    "displayname": "Modbus Id",
+    "value": "0"
+  },
+  {
+    "id": "1644",
+    "name": "LastConnectionDate",
+    "displayname": "Last Connection Date",
+    "value": "0001-01-03 00:00:00"
+  },
+  {
+    "id": "1645",
+    "name": "FirmwareVersion",
+    "displayname": "Firmware Version",
+    "value": "0.0.0"
+  },
+  {
+    "id": "1646",
+    "name": "Connected",
+    "displayname": "Connected",
+    "value": "False"
+  },
+  {
+    "id": "1647",
+    "name": "SerialNumber",
+    "displayname": "Serial Number",
+    "value": "-1"
+  },
+  {
+    "id": "1648",
+    "name": "Type",
+    "displayname": "Type",
+    "value": "Invalid"
+  },
+  {
+    "id": "1649",
+    "name": "CommunicationErrors",
+    "displayname": "Communication Errors",
+    "value": "0"
+  },
+  {
+    "id": "1650",
+    "name": "CommunicationTimeouts",
+    "displayname": "Communication Timeouts",
+    "value": "0"
+  },
+  {
+    "id": "1651",
+    "name": "ModbusId",
+    "displayname": "Modbus Id",
+    "value": "0"
+  },
+  {
+    "id": "1652",
+    "name": "LastConnectionDate",
+    "displayname": "Last Connection Date",
+    "value": "0001-01-03 00:00:00"
+  },
+  {
+    "id": "1653",
+    "name": "FirmwareVersion",
+    "displayname": "Firmware Version",
+    "value": "0.0.0"
+  },
+  {
+    "id": "1654",
+    "name": "Connected",
+    "displayname": "Connected",
+    "value": "False"
+  },
+  {
+    "id": "1655",
+    "name": "SerialNumber",
+    "displayname": "Serial Number",
+    "value": "-1"
+  },
+  {
+    "id": "1656",
+    "name": "Type",
+    "displayname": "Type",
+    "value": "Invalid"
+  },
+  {
+    "id": "1657",
+    "name": "CommunicationErrors",
+    "displayname": "Communication Errors",
+    "value": "0"
+  },
+  {
+    "id": "1658",
+    "name": "CommunicationTimeouts",
+    "displayname": "Communication Timeouts",
+    "value": "0"
+  },
+  {
+    "id": "1659",
+    "name": "ModbusId",
+    "displayname": "Modbus Id",
+    "value": "0"
+  },
+  {
+    "id": "1660",
+    "name": "LastConnectionDate",
+    "displayname": "Last Connection Date",
+    "value": "0001-01-03 00:00:00"
+  },
+  {
+    "id": "1661",
+    "name": "FirmwareVersion",
+    "displayname": "Firmware Version",
+    "value": "0.0.0"
+  },
+  {
+    "id": "1662",
+    "name": "Connected",
+    "displayname": "Connected",
+    "value": "False"
+  },
+  {
+    "id": "1663",
+    "name": "SerialNumber",
+    "displayname": "Serial Number",
+    "value": "-1"
+  },
+  {
+    "id": "1664",
+    "name": "Type",
+    "displayname": "Type",
+    "value": "Invalid"
+  },
+  {
+    "id": "1665",
+    "name": "CommunicationErrors",
+    "displayname": "Communication Errors",
+    "value": "0"
+  },
+  {
+    "id": "1666",
+    "name": "CommunicationTimeouts",
+    "displayname": "Communication Timeouts",
+    "value": "0"
+  },
+  {
+    "id": "1667",
+    "name": "ModbusId",
+    "displayname": "Modbus Id",
+    "value": "0"
+  },
+  {
+    "id": "1668",
+    "name": "LastConnectionDate",
+    "displayname": "Last Connection Date",
+    "value": "0001-01-03 00:00:00"
+  },
+  {
+    "id": "1669",
+    "name": "FirmwareVersion",
+    "displayname": "Firmware Version",
+    "value": "0.0.0"
+  },
+  {
+    "id": "1670",
+    "name": "Connected",
+    "displayname": "Connected",
+    "value": "False"
+  }
+]
