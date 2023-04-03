@@ -76,12 +76,14 @@ class Oncue2Graphite:
     def get_parameter_value(self, data, target_parameter):
         if target_parameter == "devicestate":
             state = data.get("devicestate")
-            if state == "Stopping" or state == "Crank On" or state == "-":
+            if state == "Stopping" or state == "Crank On" or state == "-" or state == "--":
                 return 0.5
-            elif state == "Performing Unloaded Full Speed Exercise":
+            elif state == "Performing Unloaded Full Speed Exercise" or state == "Running":
                 return 1
             elif state == "Standby":
                 return 0
+            elif state == "Off":
+                return -1
             print(f"Unknown state encountered: {state}")
             return 1
         if target_parameter in data.keys():
@@ -121,7 +123,8 @@ class Oncue2Graphite:
 
 if __name__ == '__main__':
     oncue2graphite = Oncue2Graphite()
-    for offset in [0, 15, 30, 45]:
+    #for offset in [0, 15, 30, 45]:
+    for offset in [0]:
         try:
             oncue2graphite.insert_data(offset)
         except Exception as e:
