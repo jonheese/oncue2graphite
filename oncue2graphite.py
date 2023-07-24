@@ -76,16 +76,21 @@ class Oncue2Graphite:
     def get_parameter_value(self, data, target_parameter):
         if target_parameter == "devicestate":
             state = data.get("devicestate")
-            if state == "Stopping" or state == "Crank On" or state == "-" or state == "--":
-                return 0.5
-            elif state == "Performing Unloaded Full Speed Exercise" or state == "Running":
-                return 1
-            elif state == "Standby":
-                return 0
-            elif state == "Off":
-                return -1
-            print(f"Unknown state encountered: {state}")
-            return 1
+            state_mappings = {
+                "Running": 8,
+                "Performing Unloaded Full Speed Exercise": 7,
+                "Stopping": 6,
+                "Crank On": 5,
+                "-": 4,
+                "--": 3,
+                "Standby": 2,
+                "Shutdown": 1,
+                "Off": 0,
+            }
+            rtn_val = state_mappings.get(state, -1)
+            if rtn_val < 0:
+                print(f"Unknown state encountered: {state}")
+            return rtn_val
         if target_parameter in data.keys():
             return data[target_parameter]
         for parameter in data.get("parameters"):
