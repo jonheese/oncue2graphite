@@ -39,7 +39,7 @@ STATE_MAPPINGS = {
     "Shutdown": 1,
     "Off": 0,
 }
-STATEFUL_PARAMETERS - [
+STATEFUL_PARAMETERS = [
   "devicestate",
   "EngineOilLowPressureSwitch"
 ]
